@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 const { Sequelize } = require ('sequelize');
-const  productos = require ('./src/models/productoModel');
+const  productos = require ('./src/models/productModels');
 // conexion a la base de datos
 const sequelize = new Sequelize ('productos', 'root', '',{
     host: 'localhost',
